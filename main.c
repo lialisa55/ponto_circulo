@@ -21,7 +21,7 @@ int main(void){
     b = circulo_criar(centro, raio);
 
     printf("Ponto: (%.1f, %.1f)\n", a->x, a->y);
-    printf("Circulo: Centro (%.1f, %.1f), Raio = %.1f\n", b->p->x, b->p->y, raio);
+    printf("Circulo: Centro(%.1f, %.1f), Raio = %.1f\n", b->p->x, b->p->y, raio);
 
     ponto_apagar(&a);
     ponto_apagar(&centro);
