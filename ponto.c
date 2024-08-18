@@ -24,6 +24,10 @@ bool ponto_set (PONTO *p, float x, float y){
     if (p !=  NULL){
         p->x = x;
         p->y = y;
+	return true;
+    }
+    else{
+	    return  false;
     }
 }
 
