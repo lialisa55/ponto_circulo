@@ -15,4 +15,7 @@ ponto.o: ponto.c ponto.h
 clean:
 	rm -f programa main.o circulo.o ponto.o
 
-.PHONY: all clean
+run: programa
+	./programa
+
+.PHONY: all clean run
